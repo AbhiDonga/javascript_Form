@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <form id="form" action="form_2.html">
+            <h1>Registration</h1>
+            <div class="input-control">
+                <label for="datepicker">Birthday</label>
+                <input id="datepicker" name="birthday" type="date" value="" required>
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="gender">Gender</label><br>
+                Male: <input type="radio" id="gender" name="gender" value="male" required>
+                Female: <input type="radio" id="gender" name="gender" value="female" required>
+                    Other: <input type="radio" id="gender" name="gender" value="other" required>
+                <div class="error"></div>
+                </div>
+
+            <button type="submit">Next</button>
+        </form>
+
+    </div>
+    <script src="form_1.js"></script>
+
+</body>
+</html>

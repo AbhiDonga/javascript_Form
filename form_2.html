@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="form_2.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form id="form" action="form_3.html">
+            <h1>Registration</h1>
+            <div class="input-control">
+                <label for="setState">State</label>
+                <select id="setState" name="setState"  required>
+                    <option selected="" value="Gujarat">Gujarat</option>
+                    <option value="Haryana">Haryana</option>
+                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                    <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Ladakh">Ladakh</option></select>
+              
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="ucountry">Country</label><br>
+                <select id="ucountry" name="ucountry" required>
+                    <option selected="" value="India">India</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Canada">Canada</option>
+                    <option value="France">France</option>
+                    <option value="Russia">Russia</option>
+                    </select>
+                <div class="error"></div>
+            </div>
+
+            <button type="submit">Next</button>
+        </form>
+    </div>
+</body>
+</html>
